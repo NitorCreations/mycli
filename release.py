@@ -69,7 +69,11 @@ def create_distribution_files():
 
 def upload_distribution_files():
     run_step(
-        "twine", "upload", "--repository", "https://packages.nitor.zone/pypi/", "dist/*"
+        "twine",
+        "upload",
+        "--repository",
+        "nitor",
+        "dist/*",
     )
 
 
