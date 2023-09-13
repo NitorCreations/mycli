@@ -1,3 +1,7 @@
+# This fork solely exists to serve this package to our private repository
+
+This for can be removed when the main repo unpins cryptography
+
 # mycli
 
 [![Build Status](https://github.com/dbcli/mycli/workflows/mycli/badge.svg)](https://github.com/dbcli/mycli/actions?query=workflow%3Amycli)
